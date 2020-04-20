@@ -19,18 +19,18 @@ req.end(function (res) {
     let europeTotCon = 0
     let europeTotdi = 0
     let europeTotRec = 0
-    let europeTotAc = 0
+   
 
     res.body.features.forEach((country) => {
         europeTotCon = europeTotCon + parseInt(country.properties.confirmed) 
         europeTotdi = europeTotdi + parseInt(country.properties.deaths) 
         europeTotRec = europeTotRec + parseInt(country.properties.recovered)
-        europeTotAc = europeTotAc + parseInt(country.properties.active)
+       
     })
     const embed = new MessageEmbed()
     .setTitle(`Coronavirus INFO`)
     .addField(`Cas confirmé dans le monde:`,`${europeTotCon} cas`)
-    .addField(`Nombre de malade actif dans le monde:`,`${europeTotAc} actifs`)
+   
     .addField(`Nombre de décès dans le monde:`,`${europeTotdi} décès`)
     .addField(`Nombre de guéris dans le monde:`,`${europeTotRec} guéris`)
     .setThumbnail(`https://i.ibb.co/6v242Ym/coronavirus.png`)
@@ -57,18 +57,18 @@ req.end(function (res) {
     let europeTotCon = 0
     let europeTotdi = 0
     let europeTotRec = 0
-    let europeTotAc = 0
+    
 
     res.body.features.forEach((country) => {
         europeTotCon = europeTotCon + parseInt(country.properties.confirmed) 
         europeTotdi = europeTotdi + parseInt(country.properties.deaths) 
         europeTotRec = europeTotRec + parseInt(country.properties.recovered)
-        europeTotAc = europeTotAc + parseInt(country.properties.active)
+       
     })
     const embed = new MessageEmbed()
     .setTitle(`Coronavirus INFO`)
     .addField(`Confirmed case in the world:`,`${europeTotCon} cases`)
-    .addField(`Number of active patient in the world:`,`${europeTotAc} active`)
+   
     .addField(`Number of deaths in the world:`,`${europeTotdi} deaths`)
     .addField(`Number of healed in the world:`,`${europeTotRec} healed`)
     .setThumbnail(`https://i.ibb.co/6v242Ym/coronavirus.png`)

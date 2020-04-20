@@ -30,7 +30,7 @@ const coronaInfo = require(`coronabot.js`),
 prefix  = `!`,
 args = message.content.slice(prefix.length).trim().split(/ +/g),
 lang = `en` //You can choose fr
-
+args.shift() //To delete the command
 //For country's
     if(message.content.startsWith(prefix + `countryInfo`)) {
         coronaInfo.countryInfo(message,args,lang)
