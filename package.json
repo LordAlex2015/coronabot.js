@@ -18,5 +18,6 @@
   "dependencies": {
     "discord.js": "^12.2.0",
     "unirest": "^0.6.0"
-  }
+  },
+  "repository": "https://github.com/LordAlex2015/coronabot.js"
 }
