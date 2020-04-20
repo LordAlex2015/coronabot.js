@@ -1,6 +1,6 @@
 {
   "name": "coronabot.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display Covid-19 info's",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "author": "LordAlex2015",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^12.2.0",    
+    "discord.js": "^12.2.0",
     "unirest": "^0.6.0"
   }
 }
