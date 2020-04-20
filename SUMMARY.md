@@ -1,4 +1,8 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [coronabot.js](README.md)
+
+## Help docs
+
+* [Installation](help-docs/install.md)
 
