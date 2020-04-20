@@ -14,7 +14,10 @@
     "coronabot.js"
   ],
   "author": "LordAlex2015",
-  "license": "MIT",
+  "license": {
+    "type":"MIT",
+    "url":"https://github.com/LordAlex2015/coronabot.js/blob/master/LICENSE"
+  },
   "dependencies": {
     "discord.js": "^12.2.0",
     "unirest": "^0.6.0"
