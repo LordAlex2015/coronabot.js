@@ -18,12 +18,12 @@
 > - en
 
 **Info's in regions**
-**- World**
-**- Africa**
-**- Asia**
-**- USA**
-**- Europe**
-**- Country**
+- **World**
+- **Africa**
+- **Asia**
+- **USA**
+- **Europe**
+- **Country**
 
 ```javascript
 const coronaInfo = require(`coronabot.js`),
