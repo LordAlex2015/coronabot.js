@@ -37,11 +37,11 @@ args.shift() //To delete the command
         coronaInfo.countryInfo(message,args,lang)
     }
 //For World, It's the same for : Asia/Europe/USA/Africa
-    if(message.content === (`${prefix}worldInfo`) {
+    if(message.content === `${prefix}worldInfo`) {
         coronaInfo.worldInfo(message,lang)
     }
 //For Sympthoms of COVID-19, It's the same for: overview/prevention
-    if(message.content === (`${prefix}sympthoms`) {
+    if(message.content === `${prefix}sympthoms`) {
        coronaInfo.sympthoms(message,lang)
     }
 ```
