@@ -1,4 +1,4 @@
-const { MessageEmbed } = require(`discord.js`)
+const { MessageEmbed } = require('discord.js')
 //Copyright 2020 © LordAlex2015
 
 exports.africaInfoFR = async(message) => {
@@ -27,12 +27,12 @@ req.end(function (res) {
         europeTotAc = europeTotAc + parseInt(country.properties.active)
     })
     const embed = new MessageEmbed()
-    .setTitle(`Coronavirus INFO`)
-    .addField(`Cas confirmé en Afrique:`,`${europeTotCon} cas`)
-    .addField(`Nombre de malade actif en Afrique:`,`${europeTotAc} actifs`)
-    .addField(`Nombre de décès en Afrique:`,`${europeTotdi} décès`)
-    .addField(`Nombre de guéris en Afrique:`,`${europeTotRec} guéris`)
-    .setThumbnail(`https://i.ibb.co/6v242Ym/coronavirus.png`)
+    .setTitle('Coronavirus INFO')
+    .addField('Cas confirmé en Afrique:',`${europeTotCon} cas`)
+    .addField('Nombre de malade actif en Afrique:',`${europeTotAc} actifs`)
+    .addField('Nombre de décès en Afrique:',`${europeTotdi} décès`)
+    .addField('Nombre de guéris en Afrique:',`${europeTotRec} guéris`)
+    .setThumbnail('https://i.ibb.co/6v242Ym/coronavirus.png')
     .setTimestamp()
     
     message.channel.send(embed)
@@ -65,12 +65,12 @@ req.end(function (res) {
         europeTotAc = europeTotAc + parseInt(country.properties.active)
     })
     const embed = new MessageEmbed()
-    .setTitle(`Coronavirus INFO`)
-    .addField(`Confirmed case in Africa:`,`${europeTotCon} cases`)
-    .addField(`Number of active patient in Africa:`,`${europeTotAc} active`)
-    .addField(`Number of deaths in Africa:`,`${europeTotdi} deaths`)
-    .addField(`Number of healed in Africa:`,`${europeTotRec} healed`)
-    .setThumbnail(`https://i.ibb.co/6v242Ym/coronavirus.png`)
+    .setTitle('Coronavirus INFO')
+    .addField('Confirmed case in Africa',`${europeTotCon} cases`)
+    .addField('Number of active patient in Africa:',`${europeTotAc} active`)
+    .addField('Number of deaths in Africa:',`${europeTotdi} deaths`)
+    .addField('Number of healed in Africa:',`${europeTotRec} healed`)
+    .setThumbnail('https://i.ibb.co/6v242Ym/coronavirus.png')
     .setTimestamp()
     
     message.channel.send(embed)

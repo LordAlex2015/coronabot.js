@@ -1,4 +1,4 @@
-const { MessageEmbed } = require(`discord.js`)
+const { MessageEmbed } = require('discord.js')
 //Copyright 2020 © LordAlex2015
 
 exports.usaInfoFR = async(message) => {
@@ -27,12 +27,12 @@ req.end(function (res) {
         europeTotAc = europeTotAc + parseInt(country.properties.active)
     })
     const embed = new MessageEmbed()
-    .setTitle(`Coronavirus INFO`)
-    .addField(`Cas confirmé au USA:`,`${europeTotCon} cas`)
-    .addField(`Nombre de malade actif au USA:`,`${europeTotAc} actifs`)
-    .addField(`Nombre de décès au USA:`,`${europeTotdi} décès`)
-    .addField(`Nombre de guéris au USA:`,`${europeTotRec} guéris`)
-    .setThumbnail(`https://i.ibb.co/6v242Ym/coronavirus.png`)
+    .setTitle('Coronavirus INFO')
+    .addField('Cas confirmé au USA:',`${europeTotCon} cas`)
+    .addField('Nombre de malade actif au USA:',`${europeTotAc} actifs`)
+    .addField('Nombre de décès au USA:',`${europeTotdi} décès`)
+    .addField('Nombre de guéris au USA:',`${europeTotRec} guéris`)
+    .setThumbnail('https://i.ibb.co/6v242Ym/coronavirus.png')
     .setTimestamp()
     
     message.channel.send(embed)
@@ -65,12 +65,12 @@ req.end(function (res) {
         europeTotAc = europeTotAc + parseInt(country.properties.active)
     })
     const embed = new MessageEmbed()
-    .setTitle(`Coronavirus INFO`)
-    .addField(`Confirmed case in USA:`,`${europeTotCon} cases`)
-    .addField(`Number of active patient in USA:`,`${europeTotAc} active`)
-    .addField(`Number of deaths in USA:`,`${europeTotdi} deaths`)
-    .addField(`Number of healed in USA:`,`${europeTotRec} healed`)
-    .setThumbnail(`https://i.ibb.co/6v242Ym/coronavirus.png`)
+    .setTitle('Coronavirus INFO')
+    .addField('Confirmed case in USA:',`${europeTotCon} cases`)
+    .addField('Number of active patient in USA:',`${europeTotAc} active`)
+    .addField('Number of deaths in USA:',`${europeTotdi} deaths`)
+    .addField('Number of healed in USA:',`${europeTotRec} healed`)
+    .setThumbnail('https://i.ibb.co/6v242Ym/coronavirus.png')
     .setTimestamp()
     
     message.channel.send(embed)

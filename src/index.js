@@ -1,15 +1,15 @@
 //Copyright 2020 © LordAlex2015
 
-const africa = require(`./africaInfo.js`),
-asia = require(`./asiaInfo.js`),
-country = require(`./countryInfo.js`),
-europe = require(`./europeInfo.js`),
-usa = require(`./usaInfo.js`),
-ww = require(`./worldInfo.js`)
+const africa = require('./africaInfo.js'),
+asia = require('./asiaInfo.js'),
+country = require('./countryInfo.js'),
+europe = require('./europeInfo.js'),
+usa = require('./usaInfo.js'),
+ww = require('./worldInfo.js')
 //Copyright 2020 © LordAlex2015
 
 exports.africaInfo = async(message,lang) => {
-    if(lang === `fr`) {
+    if(lang === 'fr') {
         africa.africaInfoFR(message)
     } else {
         africa.africaInfoEn(message)
@@ -18,7 +18,7 @@ exports.africaInfo = async(message,lang) => {
 //Copyright 2020 © LordAlex2015
 
 exports.asiaInfo = async(message,lang) => {
-    if(lang === `fr`) {
+    if(lang === 'fr') {
         asia.asiaInfoFR(message)
     } else {
         asia.asiaInfoEn(message)
@@ -27,7 +27,7 @@ exports.asiaInfo = async(message,lang) => {
 //Copyright 2020 © LordAlex2015
 
 exports.countryInfo = async(message,args,lang) => {
-    if(lang === `fr`) {
+    if(lang === 'fr') {
         country.countryInfoFR(message,args)
     } else {
         country.countryInfoEn(message,args)
@@ -36,7 +36,7 @@ exports.countryInfo = async(message,args,lang) => {
 //Copyright 2020 © LordAlex2015
 
 exports.europeInfo = async(message,lang) => {
-    if(lang === `fr`) {
+    if(lang === 'fr') {
         europe.europeInfoFR(message)
     } else {
        europe.europeInfoEn(message)
@@ -45,7 +45,7 @@ exports.europeInfo = async(message,lang) => {
 //Copyright 2020 © LordAlex2015
 
 exports.usaInfo = async(message,lang) => {
-    if(lang === `fr`) {
+    if(lang === 'fr') {
         usa.usaInfoFR(message)
     } else {
        usa.usaInfoEn(message)
@@ -54,7 +54,7 @@ exports.usaInfo = async(message,lang) => {
 //Copyright 2020 © LordAlex2015
 
 exports.worldInfo = async(message,lang) => {
-    if(lang === `fr`) {
+    if(lang === 'fr') {
         ww.worldInfoFR(message)
     } else {
         ww.worldInfoEn(message)

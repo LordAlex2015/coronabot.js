@@ -1,4 +1,4 @@
-const { MessageEmbed } = require(`discord.js`)
+const { MessageEmbed } = require('discord.js')
 //Copyright 2020 © LordAlex2015
 
 
@@ -28,12 +28,12 @@ req.end(function (res) {
         europeTotAc = europeTotAc + parseInt(country.properties.active)
     })
     const embed = new MessageEmbed()
-    .setTitle(`Coronavirus INFO`)
-    .addField(`Cas confirmé en Asie:`,`${europeTotCon} cas`)
-    .addField(`Nombre de malade actif en Asie:`,`${europeTotAc} actifs`)
-    .addField(`Nombre de décès en Asie:`,`${europeTotdi} décès`)
-    .addField(`Nombre de guéris en Asie:`,`${europeTotRec} guéris`)
-    .setThumbnail(`https://i.ibb.co/6v242Ym/coronavirus.png`)
+    .setTitle('Coronavirus INFO')
+    .addField('Cas confirmé en Asie:',`${europeTotCon} cas`)
+    .addField('Nombre de malade actif en Asie:',`${europeTotAc} actifs`)
+    .addField('Nombre de décès en Asie:',`${europeTotdi} décès`)
+    .addField('Nombre de guéris en Asie:',`${europeTotRec} guéris`)
+    .setThumbnail('https://i.ibb.co/6v242Ym/coronavirus.png')
     .setTimestamp()
     
     message.channel.send(embed)
@@ -66,12 +66,12 @@ req.end(function (res) {
         europeTotAc = europeTotAc + parseInt(country.properties.active)
     })
     const embed = new MessageEmbed()
-    .setTitle(`Coronavirus INFO`)
-    .addField(`Confirmed case in Asia:`,`${europeTotCon} cases`)
-    .addField(`Number of active patient in Asia:`,`${europeTotAc} active`)
-    .addField(`Number of deaths in Asia:`,`${europeTotdi} deaths`)
-    .addField(`Number of healed in Asia:`,`${europeTotRec} healed`)
-    .setThumbnail(`https://i.ibb.co/6v242Ym/coronavirus.png`)
+    .setTitle('Coronavirus INFO')
+    .addField('Confirmed case in Asia:',`${europeTotCon} cases`)
+    .addField('Number of active patient in Asia:',`${europeTotAc} active`)
+    .addField('Number of deaths in Asia:',`${europeTotdi} deaths`)
+    .addField('Number of healed in Asia:',`${europeTotRec} healed`)
+    .setThumbnail('https://i.ibb.co/6v242Ym/coronavirus.png')
     .setTimestamp()
     
     message.channel.send(embed)

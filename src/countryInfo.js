@@ -1,4 +1,4 @@
-const { MessageEmbed } = require(`discord.js`)
+const { MessageEmbed } = require('discord.js')
 //Copyright 2020 © LordAlex2015
 
 
@@ -32,7 +32,7 @@ req.end(function (res) {
     })
     if(!name !== null) {
     const embed = new MessageEmbed()
-    .setTitle(`Coronavirus INFO`)
+    .setTitle('Coronavirus INFO')
     .addField(`Cas confirmé | ${name}:`,`${europeTotCon} cas`)
     .addField(`Nombre de malade actif | ${name}:`,`${europeTotAc} actifs`)
     .addField(`Nombre de décès | ${name}:`,`${europeTotdi} décès`)
@@ -75,19 +75,19 @@ req.end(function (res) {
         europeTotAc = europeTotAc + parseInt(country.properties.active)
         }
     })
-    if(name !== null) {
+    if(name === null) {
+        message.reply(`Country | Not Found!`)
+    }else {
     const embed = new MessageEmbed()
-    .setTitle(`Coronavirus INFO`)
+    .setTitle('Coronavirus INFO')
     .addField(`Confirmed case in ${name}:`,`${europeTotCon} cases`)
     .addField(`Number of active patient in ${name}:`,`${europeTotAc} active`)
     .addField(`Number of deaths in ${name}:`,`${europeTotdi} deaths`)
     .addField(`Number of healed in ${name}:`,`${europeTotRec} healed`)
-    .setThumbnail(`https://i.ibb.co/6v242Ym/coronavirus.png`)
+    .setThumbnail('https://i.ibb.co/6v242Ym/coronavirus.png')
     .setTimestamp()
     
     message.channel.send(embed)
-    } else {
-        message.reply(`Country, Not Found!`)
     }
 
 });

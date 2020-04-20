@@ -1,4 +1,4 @@
-const { MessageEmbed } = require(`discord.js`)
+const { MessageEmbed } = require('discord.js')
 //Copyright 2020 © LordAlex2015
 
 
@@ -28,12 +28,12 @@ req.end(function (res) {
        
     })
     const embed = new MessageEmbed()
-    .setTitle(`Coronavirus INFO`)
-    .addField(`Cas confirmé dans le monde:`,`${europeTotCon} cas`)
+    .setTitle('Coronavirus INFO')
+    .addField('Cas confirmé dans le monde:',`${europeTotCon} cas`)
    
-    .addField(`Nombre de décès dans le monde:`,`${europeTotdi} décès`)
-    .addField(`Nombre de guéris dans le monde:`,`${europeTotRec} guéris`)
-    .setThumbnail(`https://i.ibb.co/6v242Ym/coronavirus.png`)
+    .addField('Nombre de décès dans le monde:',`${europeTotdi} décès`)
+    .addField('Nombre de guéris dans le monde:',`${europeTotRec} guéris`)
+    .setThumbnail('https://i.ibb.co/6v242Ym/coronavirus.png')
     .setTimestamp()
     
     message.channel.send(embed)
@@ -66,12 +66,12 @@ req.end(function (res) {
        
     })
     const embed = new MessageEmbed()
-    .setTitle(`Coronavirus INFO`)
-    .addField(`Confirmed case in the world:`,`${europeTotCon} cases`)
+    .setTitle('Coronavirus INFO')
+    .addField('Confirmed case in the world:',`${europeTotCon} cases`)
    
-    .addField(`Number of deaths in the world:`,`${europeTotdi} deaths`)
-    .addField(`Number of healed in the world:`,`${europeTotRec} healed`)
-    .setThumbnail(`https://i.ibb.co/6v242Ym/coronavirus.png`)
+    .addField('Number of deaths in the world:',`${europeTotdi} deaths`)
+    .addField('Number of healed in the world:',`${europeTotRec} healed`)
+    .setThumbnail('https://i.ibb.co/6v242Ym/coronavirus.png')
     .setTimestamp()
     
     message.channel.send(embed)
