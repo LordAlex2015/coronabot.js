@@ -16,8 +16,10 @@
   "author": "LordAlex2015",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^12.2.0",
+    "discord.js": "^12.x",
     "unirest": "^0.6.0"
   },
-  "repository": "https://github.com/LordAlex2015/coronabot.js"
+  "repository": {"type": "git",
+    "url":"https://github.com/LordAlex2015/coronabot.js"},
+  "url": "https://arvix.yj.fr/"
 }
