@@ -61,3 +61,24 @@ exports.worldInfo = async(message,lang) => {
     }
 }
 //Copyright 2020 © LordAlex2015
+
+const overview = require('./overview.js'),
+prev = require('./prevention.js'),
+symp = require('./sympthoms.js')
+//Copyright 2020 © LordAlex2015
+
+
+exports.overview = async(message,lang) => {
+    overview.overview(message)
+}
+//Copyright 2020 © LordAlex2015
+
+exports.prevention = async(message,lang) => {
+    prev.prev(message)
+}
+//Copyright 2020 © LordAlex2015
+
+exports.sympthoms = async(message,lang) => {
+    symp.symp(message)
+}
+//Copyright 2020 © LordAlex2015

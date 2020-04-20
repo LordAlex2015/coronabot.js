@@ -35,3 +35,17 @@ exports.worldInfo = async(message,lang) => {
     
 }
 //Copyright 2020 © LordAlex2015
+
+exports.overview = async(message,lang) => {
+    info.overview(message,lang)
+}
+//Copyright 2020 © LordAlex2015
+
+exports.prevention = async(message,lang) => {
+    info.prev(message,lang)
+}
+//Copyright 2020 © LordAlex2015
+
+exports.sympthoms = async(message,lang) => {
+    info.symp(message,lang)
+}

@@ -27,20 +27,23 @@
 - **Country**
 
 ```javascript
-const coronaInfo = require(`coronabot.js`),
-prefix  = `!`,
+const coronaInfo = require('coronabot.js'),
+prefix  = '!',
 args = message.content.slice(prefix.length).trim().split(/ +/g),
-lang = `en` //You can choose fr
+lang = 'en' //You can choose fr
 args.shift() //To delete the command
 //For country's
-    if(message.content.startsWith(prefix + `countryInfo`)) {
+    if(message.content.startsWith(`${prefix}countryInfo`)) {
         coronaInfo.countryInfo(message,args,lang)
     }
 //For World, It's the same for : Asia/Europe/USA/Africa
-    if(message.content === prefix + `worldInfo`) {
+    if(message.content === (`${prefix}worldInfo`) {
         coronaInfo.worldInfo(message,lang)
     }
-
+//For Sympthoms of COVID-19, It's the same for: overview/prevention
+    if(message.content === (`${prefix}sympthoms`) {
+       coronaInfo.sympthoms(message,lang)
+    }
 ```
 
 *Copyright 2020 © LordAlex2015*
