@@ -10,7 +10,7 @@ ww = require(`./worldInfo.js`)
 
 exports.africaInfo = async(message,lang) => {
     if(lang === `fr`) {
-        africa.africaInfoFr(message)
+        africa.africaInfoFR(message)
     } else {
         africa.africaInfoEn(message)
     }
@@ -19,7 +19,7 @@ exports.africaInfo = async(message,lang) => {
 
 exports.asiaInfo = async(message,lang) => {
     if(lang === `fr`) {
-        asia.asiaInfoFr(message)
+        asia.asiaInfoFR(message)
     } else {
         asia.asiaInfoEn(message)
     }
@@ -28,7 +28,7 @@ exports.asiaInfo = async(message,lang) => {
 
 exports.countryInfo = async(message,args,lang) => {
     if(lang === `fr`) {
-        country.countryInfoFr(message,args)
+        country.countryInfoFR(message,args)
     } else {
         country.countryInfoEn(message,args)
     }
@@ -37,7 +37,7 @@ exports.countryInfo = async(message,args,lang) => {
 
 exports.europeInfo = async(message,lang) => {
     if(lang === `fr`) {
-        europe.europeInfoFr(message)
+        europe.europeInfoFR(message)
     } else {
        europe.europeInfoEn(message)
     }
@@ -46,7 +46,7 @@ exports.europeInfo = async(message,lang) => {
 
 exports.usaInfo = async(message,lang) => {
     if(lang === `fr`) {
-        usa.usaInfoFr(message)
+        usa.usaInfoFR(message)
     } else {
        usa.usaInfoEn(message)
     }
@@ -55,7 +55,7 @@ exports.usaInfo = async(message,lang) => {
 
 exports.worldInfo = async(message,lang) => {
     if(lang === `fr`) {
-        ww.worldInfoFr(message)
+        ww.worldInfoFR(message)
     } else {
         ww.worldInfoEn(message)
     }
