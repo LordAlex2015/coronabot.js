@@ -12,7 +12,7 @@ exports.asiaInfo = async(message,lang) => {
 }
 //Copyright 2020 © LordAlex2015
 
-exports.countryInfo = async(message,lang) => {
+exports.countryInfo = async(message,args,lang) => {
     info.countryInfo(message,args,lang)
    
 }

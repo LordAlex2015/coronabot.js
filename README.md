@@ -32,7 +32,7 @@ args = message.content.slice(prefix.length).trim().split(/ +/g),
 lang = `en` //You can choose fr
 
 //For country's
-    if(message.content.starsWith(prefix + `countryInfo`)) {
+    if(message.content.startsWith(prefix + `countryInfo`)) {
         coronaInfo.countryInfo(message,args,lang)
     }
 //For World, It's the same for : Asia/Europe/USA/Africa
