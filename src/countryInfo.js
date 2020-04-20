@@ -1,4 +1,4 @@
-const { RichEmbed } = require(`discord.js`)
+const { MessageEmbed } = require(`discord.js`)
 //Copyright 2020 © LordAlex2015
 
 
@@ -31,7 +31,7 @@ req.end(function (res) {
         }
     })
     if(!name !== null) {
-    const embed = new RichEmbed()
+    const embed = new MessageEmbed()
     .setTitle(`Coronavirus INFO`)
     .addField(`Cas confirmé | ${name}:`,`${europeTotCon} cas`)
     .addField(`Nombre de malade actif | ${name}:`,`${europeTotAc} actifs`)
@@ -76,7 +76,7 @@ req.end(function (res) {
         }
     })
     if(name !== null) {
-    const embed = new RichEmbed()
+    const embed = new MessageEmbed()
     .setTitle(`Coronavirus INFO`)
     .addField(`Confirmed case in ${name}:`,`${europeTotCon} cases`)
     .addField(`Number of active patient in ${name}:`,`${europeTotAc} active`)

@@ -1,4 +1,4 @@
-const { RichEmbed } = require(`discord.js`)
+const { MessageEmbed } = require(`discord.js`)
 //Copyright 2020 © LordAlex2015
 
 exports.usaInfoFR = async(message) => {
@@ -26,7 +26,7 @@ req.end(function (res) {
         europeTotRec = europeTotRec + parseInt(country.properties.recovered)
         europeTotAc = europeTotAc + parseInt(country.properties.active)
     })
-    const embed = new RichEmbed()
+    const embed = new MessageEmbed()
     .setTitle(`Coronavirus INFO`)
     .addField(`Cas confirmé au USA:`,`${europeTotCon} cas`)
     .addField(`Nombre de malade actif au USA:`,`${europeTotAc} actifs`)
@@ -64,7 +64,7 @@ req.end(function (res) {
         europeTotRec = europeTotRec + parseInt(country.properties.recovered)
         europeTotAc = europeTotAc + parseInt(country.properties.active)
     })
-    const embed = new RichEmbed()
+    const embed = new MessageEmbed()
     .setTitle(`Coronavirus INFO`)
     .addField(`Confirmed case in USA:`,`${europeTotCon} cases`)
     .addField(`Number of active patient in USA:`,`${europeTotAc} active`)
