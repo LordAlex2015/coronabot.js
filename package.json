@@ -1,5 +1,5 @@
 {
-  "name": "coronavirusbot-js",
+  "name": "coronabot.js",
   "version": "1.0.10",
   "description": "Display Covid-19 info's",
   "main": "index.js",
