@@ -17,7 +17,7 @@
 > - fr
 > - en
 
-**Info's in regions**
+### Info's in regions
 - **World**
 - **Africa**
 - **Asia**
