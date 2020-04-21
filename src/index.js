@@ -73,12 +73,12 @@ exports.overview = async(message,lang) => {
 }
 //Copyright 2020 © LordAlex2015
 
-exports.prevention = async(message,lang) => {
+exports.prev = async(message,lang) => {
     prev.prev(message)
 }
 //Copyright 2020 © LordAlex2015
 
-exports.sympthoms = async(message,lang) => {
+exports.symp = async(message,lang) => {
     symp.symp(message)
 }
 //Copyright 2020 © LordAlex2015
