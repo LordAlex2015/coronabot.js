@@ -4,7 +4,7 @@
 
 [![NPM](https://nodei.co/npm/coronabot.js.png)](https://nodei.co/npm/coronabot.js/)
 
-[Donate Me with Patreon! ( https://www.patreon.com/lordalex2015 )](https://www.patreon.com/lordalex2015)
+[Donate me on Patreon! ( https://www.patreon.com/lordalex2015 )](https://www.patreon.com/lordalex2015)
 
 ## Description:
  Display Covid-19 info's
@@ -39,6 +39,11 @@ args.shift() //To delete the command
 //For country's
     if(message.content.startsWith(`${prefix}countryInfo`)) {
         coronaInfo.countryInfo(message,args,lang)
+    }
+//For forced Country's
+    if(message.content === `${prefix}franceInfo`) {
+        coronaInfo.forcedCountryInfo(message,'France',lang)
+        //You can replace France by an another Country
     }
 //For World, It's the same for : Asia/Europe/USA/Africa
     if(message.content === `${prefix}worldInfo`) {

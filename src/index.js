@@ -5,7 +5,8 @@ asia = require('./asiaInfo.js'),
 country = require('./countryInfo.js'),
 europe = require('./europeInfo.js'),
 usa = require('./usaInfo.js'),
-ww = require('./worldInfo.js')
+ww = require('./worldInfo.js'),
+forCountry = require(`./forcedCountryInfo.js`)
 //Copyright 2020 © LordAlex2015
 
 exports.africaInfo = async(message,lang) => {
@@ -80,5 +81,14 @@ exports.prev = async(message,lang) => {
 
 exports.symp = async(message,lang) => {
     symp.symp(message)
+}
+//Copyright 2020 © LordAlex2015
+
+exports.forceCountry = async(message,args,lang) => {
+    if(lang === 'fr') {
+        country.forcecountryInfoFR(message,args)
+    } else {
+        country.forcecountryInfoEn(message,args)
+    }
 }
 //Copyright 2020 © LordAlex2015

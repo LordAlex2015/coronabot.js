@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js')
 //Copyright 2020 © LordAlex2015
 
 
-exports.countryInfoFR = async(message,args) => {
+exports.forcecountryInfoFR = async(message,args) => {
 
 var unirest = require("unirest");
 
@@ -22,7 +22,7 @@ req.end(function (res) {
     let europeTotAc = 0
     let name = null
     res.body.features.forEach((country) => {
-        if(country.properties.name === args.join(' ')) {
+        if(country.properties.name === args) {
             name = country.properties.name
         europeTotCon = europeTotCon + parseInt(country.properties.confirmed) 
         europeTotdi = europeTotdi + parseInt(country.properties.deaths) 
@@ -48,7 +48,7 @@ req.end(function (res) {
 
 }
 
-exports.countryInfoEn = async(message,args) => {
+exports.forcecountryInfoEn = async(message,args) => {
     var unirest = require("unirest");
 
 var req = unirest("GET", "https://covid19-data.p.rapidapi.com/geojson-ww");
@@ -67,7 +67,7 @@ req.end(function (res) {
     let europeTotAc = 0
     let name = null
     res.body.features.forEach((country) => {
-        if(country.properties.name === args.join(' ')) {
+        if(country.properties.name === args) {
             name = country.properties.name
         europeTotCon = europeTotCon + parseInt(country.properties.confirmed) 
         europeTotdi = europeTotdi + parseInt(country.properties.deaths) 

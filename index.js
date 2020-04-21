@@ -49,3 +49,9 @@ exports.prevention = async(message,lang) => {
 exports.sympthoms = async(message,lang) => {
     info.symp(message,lang)
 }
+//Copyright 2020 © LordAlex2015
+
+exports.forcedCountryInfo = async(message,country,lang) => {
+    info.forceCountry(message,country,lang)
+}
+//Copyright 2020 © LordAlex2015
