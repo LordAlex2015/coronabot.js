@@ -3,7 +3,8 @@
 ### Contact via Discord => ArviX#8443
 
 [![NPM](https://nodei.co/npm/coronabot.js.png)](https://nodei.co/npm/coronabot.js/)
-[![PATREON](https://www.patreon.com/bePatron?u=34038000)](https://c6.patreon.com/becomePatronButton.bundle.js)
+
+[![PATREON](https://c6.patreon.com/becomePatronButton.bundle.js)](https://www.patreon.com/bePatron?u=34038000)
 
 <a href="https://www.patreon.com/bePatron?u=34038000" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 ## Description:
