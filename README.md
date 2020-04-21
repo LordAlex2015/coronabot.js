@@ -8,7 +8,7 @@
  Display Covid-19 info's
 
 ## Dependencies
-- discord.js (V12)
+- discord.js (V12/latest)
 - unirest
 
 ## Docs 
