@@ -4,7 +4,7 @@
 
 [![NPM](https://nodei.co/npm/coronabot.js.png)](https://nodei.co/npm/coronabot.js/)
 
-[Donate Me](https://www.patreon.com/lordalex2015)
+[Donate Me with Patreon! ( https://www.patreon.com/lordalex2015 )](https://www.patreon.com/lordalex2015)
 
 ## Description:
  Display Covid-19 info's
