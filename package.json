@@ -1,6 +1,6 @@
 {
-  "name": "coronavirusbot-js",
-  "version": "1.0.5",
+  "name": "coronabot.js",
+  "version": "1.1.4",
   "description": "Display Covid-19 info's",
   "main": "index.js",
   "scripts": {
