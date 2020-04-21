@@ -76,7 +76,7 @@ req.end(function (res) {
         }
     })
     if(name === null) {
-        message.reply(`Country | Not Found!`)
+        message.reply(`Country | Not Found! *(Try in English and the starting letter in upper case^^)*`)
     }else {
     const embed = new MessageEmbed()
     .setTitle('Coronavirus INFO')
