@@ -2,6 +2,8 @@
 ### By: LordAlex2015
 ### Contact via Discord => ArviX#8443
 
+[![NPM](https://nodei.co/npm/coronabot.js.png)](https://nodei.co/npm/coronabot.js/)
+
 ## Description:
  Display Covid-19 info's
 
